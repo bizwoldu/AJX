@@ -1,0 +1,60 @@
+
+
+
+#search-form {
+    float: right;
+    font-size: 30px;
+}
+
+body {
+background-image: url("../images/bulldog.jpg");
+}
+
+.search-item {
+    display: inline;
+    background-size: 20px;
+}
+
+.classToAdd{
+    color:white;
+    background-color: rgba(255, 136, 136, 0.8);
+    font-size: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    font-family: fantasy;
+}
+#buttonsArea {
+size: 10px;
+align-items: center;
+margin-top: 3em;
+margin-bottom: 3em;
+margin-left: 1em;
+margin-right: 1em;
+}
+.header{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+}
+label {
+    color: azure;
+}
+#addSearch{
+
+background-color: rgba(0, 0, 0, 0.8);
+font-size: 20px;
+color: white;
+font-family: fantasy;
+}
+button.searchButton {
+margin-left: 0.5em;
+}
+img.searchImage{
+margin-left: 1em;
+}
+
+
+
+
+
+
