@@ -27,7 +27,7 @@ $('#addSearch').on('click', function() {
     $(document).on('click','.classToAdd',function(){
         $('#searches').empty();
         var type = $(this).data('type');
-        var queryUrl = 'http://api.giphy.com/v1/gifs/search?q='+type+'&apikey=dc6zaTOxFJmzC&limit=10';
+        var queryUrl = 'http://api.giphy.com/v1/gifs/search?q='+type+'&apikey=IfcUCkqcFEZ5Ff4xQcQZEHkv4R1KxdLQ&limit=10';
         $.ajax({url:queryUrl,method:'GET'})
             .done(function(response){
                 for(var i=0;i<response.data.length;i++){
