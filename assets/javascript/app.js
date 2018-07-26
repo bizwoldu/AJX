@@ -3,7 +3,9 @@
 
 })
 
-var searchArray = ['PitBull',"American Bulldog",'French Bulldog','English Bulldog','Pitbull Puppies'];
+var searchArray = ['Siberian Husky',"American Bulldog",'Poodle',
+'English Bulldog','Great Dane','Beagle','Golden Retriever','Bully Kutta',
+'Pug','Boston Terrier','Chihuahua','Mastiffs','Staforshire',];
  
 function populateButtons(){
     $('#buttonsArea').empty();
@@ -27,7 +29,7 @@ $('#addSearch').on('click', function() {
     $(document).on('click','.classToAdd',function(){
         $('#searches').empty();
         var type = $(this).data('type');
-        var queryUrl = 'http://api.giphy.com/v1/gifs/search?q='+type+'&apikey=IfcUCkqcFEZ5Ff4xQcQZEHkv4R1KxdLQ&limit=10';
+        var queryUrl = 'http://api.giphy.com/v1/gifs/search?q='+type+'&apikey=IfcUCkqcFEZ5Ff4xQcQZEHkv4R1KxdLQ&limit=20';
         $.ajax({url:queryUrl,method:'GET'})
             .done(function(response){
                 for(var i=0;i<response.data.length;i++){

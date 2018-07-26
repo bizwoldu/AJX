@@ -8,6 +8,7 @@
 
 body {
 background-image: url("../images/bulldog.jpg");
+margin: 80px;
 }
 
 .search-item {
@@ -17,11 +18,13 @@ background-image: url("../images/bulldog.jpg");
 
 .classToAdd{
     color:white;
-    background-color: rgba(255, 136, 136, 0.8);
+    background-color: rgb(8, 76, 128);
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 3px;
     display: inline-block;
-    font-family: fantasy;
+    font-family: cursive;
+    margin: 3px;
+    
 }
 #buttonsArea {
 size: 10px;
@@ -32,19 +35,19 @@ margin-left: 1em;
 margin-right: 1em;
 }
 .header{
-    color: azure;
+    color: rgb(255, 255, 255);
     font-size: 100px;
     text-align: center;
 }
 label {
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 #addSearch{
 
-background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(8, 76, 128);
 font-size: 20px;
 color: white;
-font-family: fantasy;
+font-family: cursive;
 }
 button.searchButton {
 margin-left: 0.5em;
@@ -53,7 +56,12 @@ img.searchImage{
 margin-left: 1em;
 }
 
-
+img.searchImage {
+    margin-left: 1em;
+    margin: 10px;
+    border: solid white;
+    height: 150px;
+}
 
 
 
